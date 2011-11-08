@@ -1,0 +1,3 @@
+#Mon Nov 07 11:18:23 EST 2011
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime id\="GlassFish 3.1" location\="C\:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish" name\="GlassFish 3.1" runtime-type-id\="org.glassfish.jst.server.runtime.glassfish31" server_definition_id\="org.glassfish.jst.server.runtime.glassfish31" timestamp\="0">\r\n    <map key\="generic_server_instance_properties" sunappserver.rootdirectory\="C\:\\Users\\Kunal\\Desktop\\eclipse-jee-indigo-win32-x86_64\\eclipse\\plugins\\oracle.eclipse.runtime.glassfish_3.1.0.0\\glassfish3\\glassfish"/>\r\n  </runtime>\r\n</runtimes>\r\n
+eclipse.preferences.version=1

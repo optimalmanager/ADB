@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="0" hostname="localhost" id="Internal GlassFish 3.1" name="Internal GlassFish 3.1" runtime-id="GlassFish 3.1" server-type="org.glassfish.jst.server.glassfish31" server-type-id="org.glassfish.jst.server.glassfish31" start-timeout="240" stop-timeout="240" timestamp="0">
+    <map key="generic_server_instance_properties" sunappserver.adminname="admin" sunappserver.adminpassword="" sunappserver.adminserverportnumber="1114848" sunappserver.domainpath="C:/Users/Kunal/.ssh/ADB/glassfish31eclipsedefaultdomain" sunappserver.keepSessions="true" sunappserver.serveraddress="localhost" sunappserver.serverportnumber="1118080"/>
+  </server>
+</servers>

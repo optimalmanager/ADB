@@ -1,0 +1,287 @@
+Sep 09, 2011 8:06:40 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+INFO: JVM invocation command line:
+C:\Program Files\Java\jdk1.7.0\bin\java.exe
+-cp
+C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:MaxPermSize=192m
+-XX:NewRatio=2
+-Xmx512m
+-javaagent:C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish/lib/monitor/btrace-agent.jar=unsafe=true,noServer=true
+-client
+-Dosgi.shell.telnet.maxconn=1
+-Dfelix.fileinstall.disableConfigSave=false
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Dfelix.fileinstall.dir=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish/modules/autostart/
+-Djavax.net.ssl.keyStore=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1/config/keystore.jks
+-Dosgi.shell.telnet.port=6666
+-Djava.security.policy=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1/config/server.policy
+-Dfelix.fileinstall.log.level=2
+-Dfelix.fileinstall.poll=5000
+-Dcom.sun.aas.instanceRoot=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1
+-Dosgi.shell.telnet.ip=127.0.0.1
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-Djava.endorsed.dirs=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish/modules/endorsed;C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish/lib/endorsed
+-Dcom.sun.aas.installRoot=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish
+-Dfelix.fileinstall.bundles.startTransient=true
+-Djava.ext.dirs=C:\Program Files\Java\jdk1.7.0/lib/ext;C:\Program Files\Java\jdk1.7.0/jre/lib/ext;C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1/lib/ext
+-Dfelix.fileinstall.bundles.new.start=true
+-Djavax.net.ssl.trustStore=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1/config/cacerts.jks
+-Dorg.glassfish.additionalOSGiBundlesToStart=org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.security.auth.login.config=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1/config/login.conf
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Dgosh.args=--nointeractive
+-Djava.library.path=C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish/lib;C:/Program Files/Java/jdk1.7.0/bin;C:/Windows/Sun/Java/bin;C:/Windows/System32;C:/Windows;C:/Program Files/Common Files/Microsoft Shared/Windows Live;C:/Program Files (x86)/Common Files/microsoft shared/Windows Live;C:/Windows/System32/wbem;C:/Windows/System32/WindowsPowerShell/v1.0;C:/Program Files/WIDCOMM/Bluetooth Software;C:/Program Files/WIDCOMM/Bluetooth Software/syswow64;C:/;C:/Program Files (x86)/Sony/VAIO Startup Setting Tool;C:/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static;C:/Program Files (x86)/Windows Live/Shared;C:/Program Files (x86)/QuickTime/QTSystem;C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-domainname
+domain1
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=false,,,start-domain,,,--verbose=false,,,--debug=false,,,--domaindir,,,C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains,,,domain1
+-instancename
+server
+-verbose
+false
+-debug
+false
+-asadmin-classpath
+C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish/modules/admin-cli.jar
+-asadmin-classname
+com.sun.enterprise.admin.cli.AsadminMain
+-upgrade
+false
+-type
+DAS
+-domaindir
+C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish/domains/domain1
+-read-stdin
+true
+Sep 09, 2011 8:06:40 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+INFO: Successfully launched in 6 msec.
+Sep 09, 2011 8:07:02 PM null
+INFO: Running GlassFish Version: GlassFish Server Open Source Edition 3.1 (build 43)
+[#|2011-09-09T20:07:02.991-0400|INFO|glassfish3.1|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=1;_ThreadName=Thread-1;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
+
+[#|2011-09-09T20:07:03.488-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=34;_ThreadName=Thread-1;|Grizzly Framework 1.9.31 started in: 120ms - bound to [0.0.0.0:7676]|#]
+
+[#|2011-09-09T20:07:03.489-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=31;_ThreadName=Thread-1;|Grizzly Framework 1.9.31 started in: 233ms - bound to [0.0.0.0:8080]|#]
+
+[#|2011-09-09T20:07:03.489-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=29;_ThreadName=Thread-1;|Grizzly Framework 1.9.31 started in: 172ms - bound to [0.0.0.0:4848]|#]
+
+[#|2011-09-09T20:07:03.488-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=30;_ThreadName=Thread-1;|Grizzly Framework 1.9.31 started in: 147ms - bound to [0.0.0.0:3700]|#]
+
+[#|2011-09-09T20:07:03.489-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=28;_ThreadName=Thread-1;|Grizzly Framework 1.9.31 started in: 188ms - bound to [0.0.0.0:8181]|#]
+
+[#|2011-09-09T20:07:03.551-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=1;_ThreadName=Thread-1;|GlassFish Server Open Source Edition 3.1 (43) startup time : Felix (21,525ms), startup services(965ms), total(22,490ms)|#]
+
+[#|2011-09-09T20:07:04.722-0400|INFO|glassfish3.1|javax.enterprise.system.tools.admin.com.sun.enterprise.v3.admin|_ThreadID=55;_ThreadName=Thread-1;|Server shutdown initiated|#]
+
+Sep 09, 2011 8:07:07 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+INFO: JVM invocation command line:
+C:\Program Files\Java\jdk1.7.0\bin\java.exe
+-cp
+C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:MaxPermSize=192m
+-XX:NewRatio=2
+-Xmx512m
+-javaagent:C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish/lib/monitor/btrace-agent.jar=unsafe=true,noServer=true
+-client
+-Dosgi.shell.telnet.maxconn=1
+-Dfelix.fileinstall.disableConfigSave=false
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Dfelix.fileinstall.dir=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish/modules/autostart/
+-Djavax.net.ssl.keyStore=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1/config/keystore.jks
+-Dosgi.shell.telnet.port=6666
+-Djava.security.policy=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1/config/server.policy
+-Dfelix.fileinstall.log.level=2
+-Dfelix.fileinstall.poll=5000
+-Dcom.sun.aas.instanceRoot=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1
+-Dosgi.shell.telnet.ip=127.0.0.1
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-Djava.endorsed.dirs=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish/modules/endorsed;C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish/lib/endorsed
+-Dcom.sun.aas.installRoot=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish
+-Dfelix.fileinstall.bundles.startTransient=true
+-Djava.ext.dirs=C:\Program Files\Java\jdk1.7.0/lib/ext;C:\Program Files\Java\jdk1.7.0/jre/lib/ext;C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1/lib/ext
+-Dfelix.fileinstall.bundles.new.start=true
+-Djavax.net.ssl.trustStore=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1/config/cacerts.jks
+-Dorg.glassfish.additionalOSGiBundlesToStart=org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.security.auth.login.config=C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains\domain1/config/login.conf
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Dgosh.args=--nointeractive
+-Djava.library.path=C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish/lib;C:/Program Files/Java/jdk1.7.0/bin;C:/Windows/Sun/Java/bin;C:/Windows/System32;C:/Windows;C:/Program Files/Common Files/Microsoft Shared/Windows Live;C:/Program Files (x86)/Common Files/microsoft shared/Windows Live;C:/Windows/System32/wbem;C:/Windows/System32/WindowsPowerShell/v1.0;C:/Program Files/WIDCOMM/Bluetooth Software;C:/Program Files/WIDCOMM/Bluetooth Software/syswow64;C:/;C:/Program Files (x86)/Sony/VAIO Startup Setting Tool;C:/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static;C:/Program Files (x86)/Windows Live/Shared;C:/Program Files (x86)/QuickTime/QTSystem;C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-domainname
+domain1
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=false,,,start-domain,,,--verbose=false,,,--debug=false,,,--domaindir,,,C:\Users\Kunal\Desktop\eclipse-jee-indigo-win32-x86_64\eclipse\plugins\oracle.eclipse.runtime.glassfish_3.1.0.0\glassfish3\glassfish\domains,,,domain1
+-instancename
+server
+-verbose
+false
+-debug
+false
+-asadmin-classpath
+C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish/modules/admin-cli.jar
+-asadmin-classname
+com.sun.enterprise.admin.cli.AsadminMain
+-upgrade
+false
+-type
+DAS
+-domaindir
+C:/Users/Kunal/Desktop/eclipse-jee-indigo-win32-x86_64/eclipse/plugins/oracle.eclipse.runtime.glassfish_3.1.0.0/glassfish3/glassfish/domains/domain1
+-read-stdin
+true
+Sep 09, 2011 8:07:07 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+INFO: Successfully launched in 6 msec.
+Sep 09, 2011 8:07:13 PM null
+INFO: Running GlassFish Version: GlassFish Server Open Source Edition 3.1 (build 43)
+[#|2011-09-09T20:07:13.955-0400|INFO|glassfish3.1|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=1;_ThreadName=Thread-1;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
+
+[#|2011-09-09T20:07:14.300-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=30;_ThreadName=Thread-1;|Grizzly Framework 1.9.31 started in: 60ms - bound to [0.0.0.0:3700]|#]
+
+[#|2011-09-09T20:07:14.304-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=31;_ThreadName=Thread-1;|Grizzly Framework 1.9.31 started in: 121ms - bound to [0.0.0.0:8080]|#]
+
+[#|2011-09-09T20:07:14.304-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=32;_ThreadName=Thread-1;|Grizzly Framework 1.9.31 started in: 52ms - bound to [0.0.0.0:7676]|#]
+
+[#|2011-09-09T20:07:14.304-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=34;_ThreadName=Thread-1;|Grizzly Framework 1.9.31 started in: 75ms - bound to [0.0.0.0:4848]|#]
+
+[#|2011-09-09T20:07:14.304-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=33;_ThreadName=Thread-1;|Grizzly Framework 1.9.31 started in: 88ms - bound to [0.0.0.0:8181]|#]
+
+[#|2011-09-09T20:07:14.400-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=1;_ThreadName=Thread-1;|GlassFish Server Open Source Edition 3.1 (43) startup time : Felix (4,292ms), startup services(2,372ms), total(6,664ms)|#]
+
+[#|2011-09-09T20:07:14.978-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|java.rmi.server.ExportException: Port already in use: 8686; nested exception is: 
+	java.net.BindException: Address already in use: JVM_Bind
+	at sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:328)
+	at sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:236)
+	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:411)
+	at sun.rmi.transport.LiveRef.exportObject(LiveRef.java:147)
+	at sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:207)
+	at sun.rmi.registry.RegistryImpl.setup(RegistryImpl.java:112)
+	at sun.rmi.registry.RegistryImpl.<init>(RegistryImpl.java:88)
+	at java.rmi.registry.LocateRegistry.createRegistry(LocateRegistry.java:239)
+	at org.glassfish.admin.mbeanserver.RMIConnectorStarter._startRegistry(RMIConnectorStarter.java:236)
+	at org.glassfish.admin.mbeanserver.RMIConnectorStarter.startRegistry(RMIConnectorStarter.java:217)
+	at org.glassfish.admin.mbeanserver.RMIConnectorStarter.<init>(RMIConnectorStarter.java:152)
+	at org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread.startConnector(JMXStartupService.java:240)
+	at org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread.run(JMXStartupService.java:283)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:374)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createServerSocket(RMIDirectSocketFactory.java:45)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createServerSocket(RMIMasterSocketFactory.java:349)
+	at sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:667)
+	at sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:317)
+	... 12 more
+|#]
+
+[#|2011-09-09T20:07:14.984-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:328)|#]
+
+[#|2011-09-09T20:07:14.985-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:236)|#]
+
+[#|2011-09-09T20:07:14.985-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:411)|#]
+
+[#|2011-09-09T20:07:14.986-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.transport.LiveRef.exportObject(LiveRef.java:147)|#]
+
+[#|2011-09-09T20:07:14.986-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:207)|#]
+
+[#|2011-09-09T20:07:14.987-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.registry.RegistryImpl.setup(RegistryImpl.java:112)|#]
+
+[#|2011-09-09T20:07:14.987-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.registry.RegistryImpl.<init>(RegistryImpl.java:88)|#]
+
+[#|2011-09-09T20:07:14.988-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at java.rmi.registry.LocateRegistry.createRegistry(LocateRegistry.java:239)|#]
+
+[#|2011-09-09T20:07:14.988-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at org.glassfish.admin.mbeanserver.RMIConnectorStarter._startRegistry(RMIConnectorStarter.java:236)|#]
+
+[#|2011-09-09T20:07:14.989-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at org.glassfish.admin.mbeanserver.RMIConnectorStarter.startRegistry(RMIConnectorStarter.java:217)|#]
+
+[#|2011-09-09T20:07:14.989-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at org.glassfish.admin.mbeanserver.RMIConnectorStarter.<init>(RMIConnectorStarter.java:152)|#]
+
+[#|2011-09-09T20:07:14.990-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread.startConnector(JMXStartupService.java:240)|#]
+
+[#|2011-09-09T20:07:14.990-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread.run(JMXStartupService.java:283)|#]
+
+[#|2011-09-09T20:07:14.991-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|Caused by: java.net.BindException: Address already in use: JVM_Bind|#]
+
+[#|2011-09-09T20:07:14.991-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at java.net.DualStackPlainSocketImpl.bind0(Native Method)|#]
+
+[#|2011-09-09T20:07:14.992-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:96)|#]
+
+[#|2011-09-09T20:07:14.992-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:374)|#]
+
+[#|2011-09-09T20:07:14.993-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:175)|#]
+
+[#|2011-09-09T20:07:14.993-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at java.net.ServerSocket.bind(ServerSocket.java:376)|#]
+
+[#|2011-09-09T20:07:14.994-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at java.net.ServerSocket.<init>(ServerSocket.java:237)|#]
+
+[#|2011-09-09T20:07:14.995-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at java.net.ServerSocket.<init>(ServerSocket.java:128)|#]
+
+[#|2011-09-09T20:07:14.995-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createServerSocket(RMIDirectSocketFactory.java:45)|#]
+
+[#|2011-09-09T20:07:14.996-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createServerSocket(RMIMasterSocketFactory.java:349)|#]
+
+[#|2011-09-09T20:07:14.996-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:667)|#]
+
+[#|2011-09-09T20:07:14.997-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:317)|#]
+
+[#|2011-09-09T20:07:14.997-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	... 12 more|#]
+
+[#|2011-09-09T20:07:14.998-0400|WARNING|glassfish3.1|javax.enterprise.system.tools.admin.org.glassfish.server|_ThreadID=51;_ThreadName=Thread-1;|Cannot start JMX connector: JmxConnector config: { name = system, Protocol = rmi_jrmp, Address = 0.0.0.0, Port = 8686, AcceptAll = false, AuthRealmName = admin-realm, SecurityEnabled = false}: java.lang.RuntimeException: Port 8686 is not available for the internal rmi registry. This means that a call was made with the same port, without closing earlier registry instance. This has to do with the system jmx connector configuration in admin-service element of the configuration associated with this instance|#]
+
+[#|2011-09-09T20:07:15.004-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|java.lang.RuntimeException: Port 8686 is not available for the internal rmi registry. This means that a call was made with the same port, without closing earlier registry instance. This has to do with the system jmx connector configuration in admin-service element of the configuration associated with this instance
+	at org.glassfish.admin.mbeanserver.RMIConnectorStarter._startRegistry(RMIConnectorStarter.java:240)
+	at org.glassfish.admin.mbeanserver.RMIConnectorStarter.startRegistry(RMIConnectorStarter.java:217)
+	at org.glassfish.admin.mbeanserver.RMIConnectorStarter.<init>(RMIConnectorStarter.java:152)
+	at org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread.startConnector(JMXStartupService.java:240)
+	at org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread.run(JMXStartupService.java:283)
+|#]
+
+[#|2011-09-09T20:07:15.005-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at org.glassfish.admin.mbeanserver.RMIConnectorStarter._startRegistry(RMIConnectorStarter.java:240)|#]
+
+[#|2011-09-09T20:07:15.005-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at org.glassfish.admin.mbeanserver.RMIConnectorStarter.startRegistry(RMIConnectorStarter.java:217)|#]
+
+[#|2011-09-09T20:07:15.006-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at org.glassfish.admin.mbeanserver.RMIConnectorStarter.<init>(RMIConnectorStarter.java:152)|#]
+
+[#|2011-09-09T20:07:15.007-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread.startConnector(JMXStartupService.java:240)|#]
+
+[#|2011-09-09T20:07:15.007-0400|SEVERE|glassfish3.1|javax.enterprise.system.std.com.sun.enterprise.server.logging|_ThreadID=51;_ThreadName=Thread-1;|	at org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread.run(JMXStartupService.java:283)|#]
+
+[#|2011-09-09T20:07:25.373-0400|WARNING|glassfish3.1|javax.enterprise.system.tools.admin.org.glassfish.server|_ThreadID=49;_ThreadName=Thread-1;|Cannot start JMX connector: JmxConnector config: { name = system, Protocol = rmi_jrmp, Address = 0.0.0.0, Port = 8686, AcceptAll = false, AuthRealmName = admin-realm, SecurityEnabled = false}: java.io.IOException: Cannot bind to URL [rmi://Kunal-VAIO:8686/jmxrmi]: javax.naming.ServiceUnavailableException [Root exception is java.rmi.ConnectException: Connection refused to host: Kunal-VAIO; nested exception is: 
+	java.net.ConnectException: Connection timed out: connect]|#]
+
+[#|2011-09-09T20:07:25.373-0400|INFO|glassfish3.1|javax.enterprise.system.tools.admin.org.glassfish.server|_ThreadID=55;_ThreadName=Thread-31;|JMXStartupService and JMXConnectors have been shut down.|#]
+
+[#|2011-09-09T20:07:25.385-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=55;_ThreadName=Thread-31;|Shutdown procedure finished|#]
+
+[#|2011-09-09T20:09:12.860-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=43;_ThreadName=Thread-1;|CORE10018: Attempting to start the web container.|#]
+
+[#|2011-09-09T20:09:13.055-0400|INFO|glassfish3.1|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=43;_ThreadName=Thread-1;|WEB0169: Created HTTP listener [http-listener-1] on host/port [0.0.0.0:8080]|#]
+
+[#|2011-09-09T20:09:13.068-0400|INFO|glassfish3.1|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=43;_ThreadName=Thread-1;|WEB0169: Created HTTP listener [http-listener-2] on host/port [0.0.0.0:8181]|#]
+
+[#|2011-09-09T20:09:13.079-0400|INFO|glassfish3.1|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=43;_ThreadName=Thread-1;|WEB0169: Created HTTP listener [admin-listener] on host/port [0.0.0.0:4848]|#]
+
+[#|2011-09-09T20:09:13.131-0400|INFO|glassfish3.1|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=43;_ThreadName=Thread-1;|WEB0171: Created virtual server [server]|#]
+
+[#|2011-09-09T20:09:13.138-0400|INFO|glassfish3.1|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=43;_ThreadName=Thread-1;|WEB0171: Created virtual server [__asadmin]|#]
+
+[#|2011-09-09T20:09:13.832-0400|INFO|glassfish3.1|javax.enterprise.system.container.web.com.sun.enterprise.web|_ThreadID=43;_ThreadName=Thread-1;|WEB0172: Virtual server [server] loaded default web module []|#]
+
+[#|2011-09-09T20:09:14.397-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=43;_ThreadName=Thread-1;|CORE10019: Done with starting web container in 1,537 ms.|#]
+
+[#|2011-09-09T20:09:14.431-0400|SEVERE|glassfish3.1|org.apache.jasper.servlet.JspServlet|_ThreadID=43;_ThreadName=Thread-1;|PWC6117: File "C%3A%5CUsers%5CKunal%5CDesktop%5Ceclipse-jee-indigo-win32-x86_64%5Ceclipse%5Cplugins%5Coracle.eclipse.runtime.glassfish_3.1.0.0%5Cglassfish3%5Cglassfish%5Cdomains%5Cdomain1%5Cdocroot%5CMyFirstWebApp%5Cindex.jsp" not found|#]
+
+[#|2011-09-09T20:10:08.119-0400|INFO|glassfish3.1|javax.enterprise.system.tools.admin.com.sun.enterprise.v3.admin|_ThreadID=64;_ThreadName=Thread-1;|Server shutdown initiated|#]
+
+[#|2011-09-09T20:10:11.319-0400|INFO|glassfish3.1|javax.enterprise.system.tools.admin.org.glassfish.server|_ThreadID=64;_ThreadName=Thread-37;|JMXStartupService and JMXConnectors have been shut down.|#]
+
+[#|2011-09-09T20:10:11.319-0400|INFO|glassfish3.1|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=64;_ThreadName=Thread-37;|Shutdown procedure finished|#]
+

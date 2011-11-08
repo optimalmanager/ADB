@@ -1,6 +1,11 @@
 package adb.project2;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -22,12 +27,35 @@ class WebSample
 	static XPathFactory factory = null;
 	static XPath xpath = null;
 	static XPathExpression expr = null;
+	StringBuffer builder = new StringBuffer();
+	static BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+	static String userinput = null;
 
 	public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException, 
-XPathExpressionException
+	XPathExpressionException
 	{
 		// Build the request.
-		String requestURL = BuildRequest();
+		System.out.println("Enter the Database URL you want to crawl :");
+
+		userinput = br.readLine();
+		if(userinput.startsWith("http://") || userinput.startsWith("https://"))
+		{
+			userinput=userinput.substring(userinput.indexOf("://")+3);
+		}
+		String dbURL=userinput;
+
+
+		System.out.println("Search URL : "+userinput);
+		FileReader fileReader = new FileReader("rules.txt");
+		BufferedReader bufferedReader = new BufferedReader(fileReader);
+		List<String> rules = new ArrayList<String>();
+		String rule = null;
+		while ((rule = bufferedReader.readLine()) != null) {
+			rules.add(rule);
+		}
+		bufferedReader.close();
+
+		String requestURL = BuildRequest(dbURL,rules.get(0));
 
 		// Send the request to the Live Search Service and get the response.
 		Document doc = GetResponse(requestURL);
@@ -39,17 +67,17 @@ XPathExpressionException
 		}
 
 	}
-	private static String BuildRequest()
+	private static String BuildRequest(String dbURL,String searchStr)
 	{
 		// Replace the following string with the AppId you received from the
 		// Live Search Developer Center.
-		String AppId = "Insert your AppId here.";
+		String AppId = "C1E6E5443C0C93B26B467E3BB8F36D014DE50A97";
 		String requestString = "http://api.search.live.net/xml.aspx?"
 
-			// Common request fields (required)
-			+ "AppId=" + AppId
-			+ "&Query=msdn blogs"
-			+ "&Sources=Web"
+				// Common request fields (required)
+				+ "AppId=" + AppId
+				+ "&Query="+searchStr+"%20(site:"+dbURL+")"
+				+ "&Sources=Web"
 
 			// Common request fields (optional)
 			+ "&Version=2.0"
@@ -58,16 +86,16 @@ XPathExpressionException
 
 			// Web-specific request fields (optional)
 			+ "&Web.Count=10"
-			+ "&Web.Offset=0"
-			+ "&Web.FileType=DOC"
-			+ "&Web.Options=DisableHostCollapsing+DisableQueryAlterations";
+			+ "&Web.Offset=0";
+		/*	+ "&Web.FileType=DOC"
+			+ "&Web.Options=DisableHostCollapsing+DisableQueryAlterations";*/
 
 		return requestString;
 	}
 
 	private static Document GetResponse(String requestURL) throws ParserConfigurationException, SAXException, 
 
-IOException 
+	IOException 
 	{
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		dbf.setNamespaceAware(true);
@@ -107,15 +135,17 @@ IOException
 		int total = Integer.parseInt((String)xpath.evaluate("//web:Web/web:Total",doc,XPathConstants.STRING));
 		int offset = Integer.parseInt((String)xpath.evaluate("//web:Web/web:Offset",doc,
 
-XPathConstants.STRING));
+				XPathConstants.STRING));
 		NodeList results = (NodeList)xpath.evaluate("//web:Web/web:Results/web:WebResult",doc,XPathConstants.NODESET); 
 
 		// Display the results header.
 		System.out.println("Live Search API Version " + version);
 		System.out.println("Web results for " + searchTerms);
-		System.out.println("Displaying " + (offset+1) + " to " + (offset + 
+		System.out.println(results.getLength());
+		
+		/*System.out.println("Displaying " + (offset+1) + " to " + (offset + 
 
-results.getLength()) + " of " + total + " results ");
+				results.getLength()) + " of " + total + " results ");
 		System.out.println();
 
 		// Display the Web results.
@@ -144,7 +174,7 @@ results.getLength()) + " of " + total + " results ");
 			builder.append("\n");
 		}
 
-		System.out.println(builder.toString());
+		System.out.println(builder.toString());*/
 	}
 
 	private static void DisplayErrors(NodeList errors) 
